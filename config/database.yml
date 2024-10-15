@@ -81,8 +81,7 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    host: <%= ENV["POSTGRES_HOST"] %>
-    port: <%= ENV["POSTGRES_PORT"] %>
+    host: <%= ENV["DB_HOST"] %>
     database: cdrwn_app_production
     username: deploy
     password: <%= ENV["POSTGRES_ROOT_PASSWORD"] %>

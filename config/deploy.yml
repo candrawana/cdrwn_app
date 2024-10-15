@@ -106,6 +106,7 @@ accessories:
         POSTGRES_DB: cdrwn_app_production
       secret:
         - POSTGRES_ROOT_PASSWORD
+        - POSTGRES_PASSWORD
     files:
       - db/production.sql:/docker-entrypoint-initdb.d/setup.sql
     directories:
