@@ -4,6 +4,8 @@ service: cdrwn_app
 # Name of the container image.
 image: candrawana/cdrwn_app
 
+<% require "dotenv"; Dotenv.load(".env") %>
+
 # Deploy to these servers.
 servers:
   web:
