@@ -101,7 +101,7 @@ accessories:
     port: "127.0.0.1:5432:5432"
     env:
       clear:
-        DB_HOST: <%= ENV["DB_HOST"] %>
+        DB_HOST: 103.20.235.123
         POSTGRES_USER: deploy
         POSTGRES_DB: cdrwn_app_production
       secret:
