@@ -1,24 +1,6 @@
-# README
+# ~/.cdrwn
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://cdrwn.dev
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails: 8.0.0.rc1
+kamal: 2.2.2
