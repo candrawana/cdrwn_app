@@ -2,5 +2,8 @@
 
 https://cdrwn.dev
 
-rails: 8.0.0.rc1
-kamal: 2.2.2
+ruby 3.3.6  
+  
+rails: 8.0.0  
+  
+kamal: 2.3.0
