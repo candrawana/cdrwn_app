@@ -61,6 +61,6 @@ group :development do
 end
 
 
-gem "css-zero", "~> 0.0.66"
+gem "css-zero", "~> 1.0.4"
 
 gem "lucide-rails", "~> 0.5.1"
